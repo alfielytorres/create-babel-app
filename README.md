@@ -9,10 +9,10 @@ Features
 ## Steps 
 
 - install all node modules 
-npm install 
+```npm install ```
 
-- production mode 
-npm run build 
+- production mode to generate bundle.js
+ ```npm run build  ```
 
-- development mode 
-npm run dev-server 
+- development mode to run a live server on http://localhost:8080/
+ ```npm run dev-server```
