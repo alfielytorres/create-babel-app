@@ -1,7 +1,7 @@
 # create-babel-app
-Personal implementation of babel and webpack
+My personal boilerplate of babel and webpack
 
-Features 
+## Features 
 - source mapping for dev tools
 - babel and webpack
 - production and development mode scripts
