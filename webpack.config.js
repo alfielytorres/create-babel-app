@@ -3,7 +3,7 @@ const path = require('path') // require library that allows us to combine paths 
 
 // in -> out
 module.exports = {
-    entry: './src/index.js', // input - relative path entry path to where our src code lives
+    entry: ['babel-polyfill','./src/index.js'], // input - relative path entry path to where our src code lives
     output: {
         path: path.resolve(__dirname, 'public/scripts'), // combines paths 
         filename: 'bundle.js'
